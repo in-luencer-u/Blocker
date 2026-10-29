@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shield</string>
+
+    <!-- Accessibility service -->
+    <string name="accessibility_label">Shield on-screen guard</string>
+    <string name="accessibility_description">Lets Shield see what is on screen so it can close adult content inside apps and stop the protection being switched off. Screen contents are checked on the device and never stored or sent anywhere.</string>
+
+    <!-- Device admin -->
+    <string name="device_admin_label">Shield protection lock</string>
+    <string name="device_admin_description">Prevents Shield from being uninstalled without the cooling-off period and your accountability partner\'s approval.</string>
+    <string name="admin_disable_warning">Turning this off removes the uninstall protection you set up. Your accountability partner will be told. If you are struggling right now, open Shield and use the urge support screen instead.</string>
+
+    <!-- Notification channels -->
+    <string name="channel_protection">Protection status</string>
+    <string name="channel_protection_desc">The permanent notice showing that filtering is active. Android requires this to keep the filter running.</string>
+    <string name="channel_alerts">Protection alerts</string>
+    <string name="channel_alerts_desc">Warnings when protection is weakened or tampered with.</string>
+
+    <string name="notif_protection_title">Shield is protecting this device</string>
+    <string name="notif_protection_on">Filtering is active</string>
+    <string name="notif_protection_paused">Filtering is PAUSED — unlock window is open</string>
+
+    <!-- Alerts -->
+    <string name="alert_protection_off_title">Protection stopped</string>
+    <string name="alert_protection_off_body">The filter is no longer running. Open Shield to turn it back on.</string>
+    <string name="alert_vpn_revoked">Shield: the content filter was switched off or replaced by another VPN. The device is currently unprotected.</string>
+    <string name="alert_accessibility_off">Shield: the on-screen guard was switched off. In-app blocking and tamper protection are not working.</string>
+</resources>

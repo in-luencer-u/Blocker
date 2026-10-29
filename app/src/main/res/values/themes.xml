@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Shield" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/surface</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowBackground">@color/surface</item>
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorOnPrimary">@color/on_accent</item>
+    </style>
+
+    <!-- The urge screen fills the display and must not be dismissed by a swipe. -->
+    <style name="Theme.Shield.Urge" parent="Theme.Shield">
+        <item name="android:windowBackground">@color/calm_background</item>
+        <item name="android:statusBarColor">@color/calm_background</item>
+        <item name="android:navigationBarColor">@color/calm_background</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowSwipeToDismiss" tools:targetApi="30">false</item>
+    </style>
+</resources>

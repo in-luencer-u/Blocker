@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="surface">#FF101418</color>
+    <color name="surface_card">#FF1A2026</color>
+    <color name="on_surface">#FFE9EDF1</color>
+    <color name="on_surface_muted">#FF9AA6B2</color>
+
+    <color name="accent">#FF4FC3A1</color>
+    <color name="on_accent">#FF06231C</color>
+
+    <color name="ok">#FF4FC3A1</color>
+    <color name="warn">#FFE8B04B</color>
+    <color name="bad">#FFE86A5B</color>
+
+    <color name="calm_background">#FF11313A</color>
+
+    <color name="ic_launcher_background">#FF11313A</color>
+</resources>

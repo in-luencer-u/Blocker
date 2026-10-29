@@ -1,0 +1,30 @@
+# Build output
+build/
+*/build/
+.gradle/
+local.properties
+
+# The signing key is deliberately NOT committed.
+#
+# If the signing key sits in this repository, you can build a modified copy of
+# Shield that does nothing and install it straight over the real one as an
+# "update", because it would carry the same signature. That is exactly the
+# weak-moment bypass this app exists to prevent.
+#
+# Keep the key somewhere you cannot reach easily, or give it to your
+# accountability partner. See tools/make-keystore.sh.
+keystore/
+*.jks
+*.keystore
+keystore.properties
+
+# Toolchain downloaded by the build environment
+.toolchain/
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
